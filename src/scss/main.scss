@@ -1,0 +1,24 @@
+.wrapper{
+  width: 1500px;
+  height: 1000px;
+  display: flex;
+  background:  coral;
+  background-image: url(../img/img_3.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  @media screen and (max-width: 1024px) {
+    width: 150px;
+  }
+}
+
+.wrapper_1{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  background: coral;
+
+  @media screen and (max-width: 1024px) {
+    height: 150px;
+  }
+}
